@@ -1,0 +1,87 @@
+//Universal styles.
+///////////////////
+* {
+font-family: PT Sans;
+}
+
+
+//Firts yellow block.
+/////////////////////
+.firstBlock {
+  padding: 8% 2% 0 2%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fcdb00;
+}
+
+//Main Navigation menu.
+///////////////////////
+.navMenu {
+  max-width: 940px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.navMenu::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.maintitle {
+  font-size: 30px;
+  width: 20%;
+  margin: 0;
+  float: left;
+}
+
+.maintitle::before {
+  $url:'../assets/print.png';
+  content: '';
+  background-image: url($url);
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+}
+
+.tabsMenu {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  vertical-align: baseline;
+}
+
+.tabsMenu li {
+  font-size: 22px;
+  display: inline;
+  list-style: none;
+  float: right;
+  margin: 0 37.5px 0;
+}
+
+//Information block.
+////////////////////
+.contentBlock {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.contentBlock::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.infoBlock {
+  width: 60%;
+  float: left;
+}
+
+.mediaBlock {
+  width: 40%;
+  float: right;
+}
