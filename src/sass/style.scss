@@ -4,6 +4,11 @@
 font-family: PT Sans;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 
 //Firts yellow block.
 /////////////////////
@@ -70,10 +75,28 @@ font-family: PT Sans;
   margin: 0 auto;
 }
 
+.preContentInfo {
+  margin: 13.5px 0 13.5px 0;
+  font-size: 20px;
+  width: 58%;
+}
+
+.contentInfo {
+  font-size: 16px;
+  margin: 13.5px 0 13.5px 0;
+  width: 75%;
+}
+
 .contentBlock::after {
   clear: both;
   content: '';
   display: block;
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 32px;
+  width: 58%;
 }
 
 .infoBlock {
@@ -84,4 +107,30 @@ font-family: PT Sans;
 .mediaBlock {
   width: 40%;
   float: right;
+  text-align: center;
+}
+
+.iconList {
+  list-style: none;
+  display: inline-block;
+  margin: 13.5px 20px 0;
+}
+
+.slideShowStatus {
+  width: 20%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+.circleSlideShow {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.circleSlideShow:hover {
+  background-color: black;
+  transition: background-color 0.8s;
 }
