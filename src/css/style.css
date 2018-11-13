@@ -115,8 +115,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 40px;
-  border-bottom: 2px solid black; }
+  padding-bottom: 40px; }
 
 .subTitleFeatures {
   font-weight: bold;
@@ -127,5 +126,48 @@ body {
   margin: 0 auto;
   font-size: 20px;
   width: 80%; }
+
+.firstFeature {
+  width: 313px;
+  height: auto;
+  display: inline-block;
+  margin: 10px; }
+
+.firstFeature::before {
+  content: '';
+  background-image: url("../assets/featureCell.png");
+  height: 40px;
+  width: 35px;
+  display: inline-block;
+  position: relative;
+  top: 20px; }
+
+.featureTitle {
+  display: inline-block;
+  margin: 0; }
+
+.featureParagraph {
+  display: inline-block;
+  width: 200px; }
+
+.paragraphWrapper::before {
+  content: '';
+  width: 35px;
+  height: 100%;
+  display: inline-block; }
+
+.secondFeature {
+  width: 313px;
+  height: auto;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 10px; }
+
+.thirdFeature {
+  width: 313px;
+  height: auto;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */
