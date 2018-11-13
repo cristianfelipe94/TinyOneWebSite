@@ -1,5 +1,5 @@
 * {
-  font-family: PT Sans; }
+  font-family: PT Sans, sans-serif; }
 
 body {
   margin: 0;
@@ -104,5 +104,28 @@ body {
 .circleSlideShow:hover {
   background-color: black;
   transition: background-color 0.8s; }
+
+.secondBlock {
+  padding: 8% 2% 0 2%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff; }
+
+.secondContentBlock {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black; }
+
+.subTitleFeatures {
+  font-weight: bold;
+  font-size: 32px;
+  width: 100%; }
+
+.preContentFeatures {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */

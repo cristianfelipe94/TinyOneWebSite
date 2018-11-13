@@ -1,7 +1,7 @@
 //Universal styles.
 ///////////////////
 * {
-font-family: PT Sans;
+font-family: PT Sans, sans-serif;
 }
 
 body {
@@ -110,12 +110,16 @@ body {
   text-align: center;
 }
 
+//Software Icons.
+/////////////////
 .iconList {
   list-style: none;
   display: inline-block;
   margin: 13.5px 20px 0;
 }
 
+//SlideShow Circles Status.
+///////////////////////////
 .slideShowStatus {
   width: 20%;
   margin: 45px auto;
@@ -134,3 +138,36 @@ body {
   background-color: black;
   transition: background-color 0.8s;
 }
+
+//Second Block.
+///////////////
+.secondBlock {
+  padding: 8% 2% 0 2%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+//Second Content Block.
+///////////////////////
+.secondContentBlock {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.subTitleFeatures {
+  font-weight: bold;
+  font-size: 32px;
+  width: 100%;
+}
+
+.preContentFeatures {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 80%;
+}
+
+//Features content information.
