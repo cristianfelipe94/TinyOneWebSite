@@ -3,19 +3,17 @@
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: hidden; }
 
 .firstBlock {
-  padding: 8% 2% 0 2%;
-  height: 80%;
-  width: 100vw;
+  padding: 8% 0;
   background-color: #fcdb00; }
 
 .navMenu {
   max-width: 940px;
-  height: 60px;
   margin: 0 auto;
-  padding: 1%; }
+  padding-bottom: 8%; }
 
 .navMenu::after {
   clear: both;
@@ -28,28 +26,33 @@ body {
   margin: 0;
   float: left; }
 
-.maintitle::before {
+.navMenu::before {
   content: '';
   background-image: url("../assets/print.png");
   height: 48px;
   width: 48px;
-  display: inline-block; }
+  float: left;
+  margin-right: 10px; }
 
 .tabsMenu {
-  display: inline-block;
   float: right;
-  width: 50%;
+  width: 31%;
   padding: 0;
-  margin: 0;
-  height: 60px;
-  vertical-align: baseline; }
+  margin: 0; }
 
-.tabsMenu li {
+.tabsMenu a {
   font-size: 22px;
   display: inline;
-  list-style: none;
-  float: right;
-  margin: 0 37.5px 0; }
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold; }
+  .tabsMenu a:hover {
+    color: white;
+    transition: color 0.5s; }
+
+.tabsMenu a + a {
+  margin-left: 37.5px; }
 
 .contentBlock {
   max-width: 940px;
@@ -282,7 +285,7 @@ body {
   display: inline-block; }
 
 .thirdBlock {
-  padding: 8% 2% 0% 2%;
+  padding: 8% 2% 8% 2%;
   height: 80%;
   width: 100vw;
   background-color: #010101; }
@@ -301,23 +304,143 @@ body {
 
 .thirdContentBlock {
   max-width: 940px;
-  margin: 0 auto;
+  margin: 0 auto 22px;
   text-align: center; }
 
 .formBlock {
-  max-width: 940px;
+  max-width: 752px;
   height: 50px;
-  margin: 0 auto;
+  margin: 22px auto;
   text-align: center; }
 
 .inputEmailBar {
-  width: 79%;
+  width: 78%;
+  height: 50px;
+  margin-right: 12px;
   display: inline-block;
-  height: 50px; }
+  border-radius: 10px;
+  border: none;
+  font-size: 20px; }
 
 .sendMessageBtn {
-  width: 19%;
+  font-size: 16px;
+  width: 17%;
   height: 50px;
+  margin-left: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #fcdb00;
+  border-radius: 10px;
+  border: none; }
+  .sendMessageBtn:hover {
+    background-color: black;
+    color: #fcdb00;
+    transition: background-color 0.8s, color 0.5s;
+    border: 2px solid #fcdb00; }
+
+.imgSprites {
+  width: 277px;
+  margin: 0 auto; }
+
+.facebookIcon {
+  height: 36px;
+  width: 36px;
+  background-image: url("../assets/facebookIcon.png");
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer; }
+  .facebookIcon:hover {
+    opacity: 0.7; }
+
+.twitterIcon {
+  height: 36px;
+  width: 36px;
+  background-image: url("../assets/twitterIcon.png");
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer; }
+  .twitterIcon:hover {
+    opacity: 0.7; }
+
+.googleIcon {
+  height: 36px;
+  width: 36px;
+  background-image: url("../assets/googleIcon.png");
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer; }
+  .googleIcon:hover {
+    opacity: 0.7; }
+
+.pinterestIcon {
+  height: 36px;
+  width: 36px;
+  background-image: url("../assets/pinterestIcon.png");
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer; }
+  .pinterestIcon:hover {
+    opacity: 0.7; }
+
+.footerBlock {
+  color: rgba(255, 255, 255, 0.664);
+  width: 890px;
+  padding-bottom: 8%;
+  margin: 0 auto; }
+
+.footerBlock::before {
+  clear: both;
+  content: '';
   display: inline-block; }
+
+.addressBlock {
+  width: 185px;
+  padding: 0 13px;
+  float: left; }
+  .addressBlock p {
+    cursor: pointer; }
+    .addressBlock p:hover {
+      color: white; }
+
+.firstInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left; }
+  .firstInfoFooterBlock p {
+    cursor: pointer; }
+    .firstInfoFooterBlock p:hover {
+      color: white; }
+
+.secondInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left; }
+  .secondInfoFooterBlock p {
+    cursor: pointer; }
+    .secondInfoFooterBlock p:hover {
+      color: white; }
+
+.thirdInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left; }
+  .thirdInfoFooterBlock p {
+    cursor: pointer; }
+    .thirdInfoFooterBlock p:hover {
+      color: white; }
+
+.fourthInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left; }
+  .fourthInfoFooterBlock p {
+    cursor: pointer; }
+    .fourthInfoFooterBlock p:hover {
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */

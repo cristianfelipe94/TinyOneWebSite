@@ -7,15 +7,14 @@ font-family: PT Sans, sans-serif;
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 
 //Firts yellow block.
 /////////////////////
 .firstBlock {
-  padding: 8% 2% 0 2%;
-  height: 80%;
-  width: 100vw;
+  padding: 8% 0;
   background-color: #fcdb00;
 }
 
@@ -23,9 +22,8 @@ body {
 ///////////////////////
 .navMenu {
   max-width: 940px;
-  height: 60px;
   margin: 0 auto;
-  padding: 1%;
+  padding-bottom: 8%;
 }
 
 .navMenu::after {
@@ -41,31 +39,38 @@ body {
   float: left;
 }
 
-.maintitle::before {
+.navMenu::before {
   $url:'../assets/print.png';
   content: '';
   background-image: url($url);
   height: 48px;
   width: 48px;
-  display: inline-block;
+  float: left;
+  margin-right: 10px;
 }
 
 .tabsMenu {
-  display: inline-block;
   float: right;
-  width: 50%;
+  width: 31%;
   padding: 0;
   margin: 0;
-  height: 60px;
-  vertical-align: baseline;
 }
 
-.tabsMenu li {
+.tabsMenu a {
   font-size: 22px;
   display: inline;
-  list-style: none;
-  float: right;
-  margin: 0 37.5px 0;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    transition: color 0.5s;
+  }
+}
+
+.tabsMenu a + a {
+  margin-left: 37.5px;;
 }
 
 //Information block.
@@ -357,7 +362,7 @@ body {
 //Thrid Block
 /////////////
 .thirdBlock {
-  padding: 8% 2% 0% 2%;
+  padding: 8% 2% 8% 2%;
   height: 80%;
   width: 100vw;
   background-color: #010101;
@@ -379,26 +384,180 @@ body {
 
 .thirdContentBlock {
   max-width: 940px;
-  margin: 0 auto;
+  margin: 0 auto 22px;
   text-align: center;
 }
 
 .formBlock {
-  max-width: 940px;
+  max-width: 752px;
   height: 50px;
-  margin: 0 auto;
+  margin: 22px auto;
   text-align: center;
 }
 
 .inputEmailBar {
- width: 79%;
- display: inline-block;
+ width: 78%;
  height: 50px;
+ margin-right: 12px;
+ display: inline-block;
+ border-radius: 10px;
+ border: none;
+ font-size: 20px;
 }
 
 .sendMessageBtn {
-  width: 19%;
+  font-size: 16px;
+  width: 17%;
   height: 50px;
+  margin-left: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #fcdb00;
+  border-radius: 10px;
+  border: none;
+  &:hover {
+    background-color: black;
+    color: #fcdb00;
+    transition: background-color 0.8s, color 0.5s;
+    border: 2px solid #fcdb00;
+  }
+}
+
+//Sprites Block.
+////////////////
+.imgSprites {
+  width: 277px;
+  margin: 0 auto;
+}
+
+.facebookIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/facebookIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.twitterIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/twitterIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.googleIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/googleIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.pinterestIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/pinterestIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+//Footer Block.
+///////////////
+.footerBlock {
+  color: rgba(255, 255, 255, 0.664);
+  width: 890px;
+  padding-bottom: 8%;
+  margin: 0 auto;
+}
+
+.footerBlock::before {
+  clear: both;
+  content:'';
   display: inline-block;
 }
 
+.addressBlock {
+  width: 185px;
+  padding: 0 13px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.firstInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.secondInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.thirdInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.fourthInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
