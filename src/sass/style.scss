@@ -14,7 +14,7 @@ body {
 /////////////////////
 .firstBlock {
   padding: 8% 2% 0 2%;
-  height: 100vh;
+  height: 80%;
   width: 100vw;
   background-color: #fcdb00;
 }
@@ -142,8 +142,8 @@ body {
 //Second Block.
 ///////////////
 .secondBlock {
-  padding: 8% 2% 0 2%;
-  height: 100vh;
+  padding: 8% 2% 8% 2%;
+  height: 80%;
   width: 100vw;
   background-color: #ffffff;
 }
@@ -170,17 +170,28 @@ body {
 }
 
 //Features content information.
+.infoFeatures {
+  max-width: 940px;
+  margin:0 auto;
+}
+
+.firstRow {
+  display: table;
+  margin: 0 auto;
+}
+
 .firstFeature {
-  width: 313px;
+  width: 28%;
   height: auto;
-  display: inline-block;
+  display: table-cell;
   margin: 10px;
+  padding: 0;
 }
 
 .firstFeature::before {
-  $firstFeature:'../assets/featureCell.png';
+  $url:'../assets/featureCell.png';
   content: '';
-  background-image: url($firstFeature);
+  background-image: url($url);
   height: 40px;
   width: 35px;
   display: inline-block;
@@ -191,32 +202,203 @@ body {
 .featureTitle {
   display: inline-block;
   margin: 0;
+  font-size: 22px;
 }
 
 .featureParagraph {
   display: inline-block;
   width: 200px;
+  color: #989898;
+  font-size: 16px;
 }
 
-.paragraphWrapper::before {
+.paragraphFirstWrapper::before {
   content: '';
   width: 35px;
   height: 100%;
   display: inline-block;
 }
 
-.secondFeature {
-  width: 313px;
-  height: auto;
+.paragraphSecondWrapper::before {
+  content: '';
+  width: 45px;
+  height: 100%;
   display: inline-block;
-  border: 2px solid black;
-  margin: 10px;
- }
+}
 
- .thirdFeature {
-  width: 313px;
+.secondFeature {
+  width: 28%;
   height: auto;
-  display: inline-block;
-  border: 2px solid black;
+  display: table-cell;
   margin: 10px;
- }
+  padding: 0;
+}
+
+.secondFeature::before {
+  $url:'../assets/featureLemon.png';
+  content: '';
+  background-image: url($url);
+  height: 44px;
+  width: 45px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.thirdFeature {
+  width: 28%;
+  height: auto;
+  display: table-cell;
+  margin: 10px;
+  padding: 0;
+}
+
+.thirdFeature::before {
+  $url:'../assets/featureFolder.png';
+  content: '';
+  background-image: url($url);
+  height: 40px;
+  width: 49px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.paragraphThirdWrapper::before {
+  content: '';
+  width: 49px;
+  height: 100%;
+  display: inline-block;
+}
+
+.secondRow {
+  display: table;
+  margin: 0 auto;
+}
+
+.fourthFeature {
+  width: 28%;
+  height: auto;
+  display: table-cell;
+  margin: 10px;
+  padding: 0;
+}
+
+.fourthFeature::before {
+  $url:'../assets/featureCode.png';
+  content: '';
+  background-image: url($url);
+  height: 39px;
+  width: 54px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.paragraphFourthWrapper::before {
+  content: '';
+  width: 54px;
+  height: 100%;
+  display: inline-block;
+}
+
+.fifthFeature {
+  width: 28%;
+  height: auto;
+  display: table-cell;
+  margin: 10px;
+  padding: 0;
+}
+
+.fifthFeature::before {
+  $url:'../assets/featureMessage.png';
+  content: '';
+  background-image: url($url);
+  height: 40px;
+  width: 54px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.paragraphFifthWrapper::before {
+  content: '';
+  width: 54px;
+  height: 100%;
+  display: inline-block;
+}
+
+.sixthFeature {
+  width: 28%;
+  height: auto;
+  display: table-cell;
+  padding: 0;
+}
+
+.sixthFeature::before {
+  $url:'../assets/featureFlag.png';
+  content: '';
+  background-image: url($url);
+  height: 45px;
+  width: 38px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.paragraphSixthWrapper::before {
+  content: '';
+  width: 38px;
+  height: 100%;
+  display: inline-block;
+}
+
+
+//Thrid Block
+/////////////
+.thirdBlock {
+  padding: 8% 2% 0% 2%;
+  height: 80%;
+  width: 100vw;
+  background-color: #010101;
+}
+
+.subTitleFooter {
+  font-weight: bold;
+  font-size: 32px;
+  width: 100%;
+  color: #fcdb00;
+}
+
+.preContentFooter {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 80%;
+  color: #898989;
+}
+
+.thirdContentBlock {
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formBlock {
+  max-width: 940px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputEmailBar {
+ width: 79%;
+ display: inline-block;
+ height: 50px;
+}
+
+.sendMessageBtn {
+  width: 19%;
+  height: 50px;
+  display: inline-block;
+}
+
