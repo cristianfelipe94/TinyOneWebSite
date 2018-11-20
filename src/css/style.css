@@ -56,7 +56,9 @@ body {
 
 .contentBlock {
   max-width: 940px;
-  margin: 0 auto; }
+  height: 480px;
+  margin: 0 auto;
+  position: relative; }
 
 .preContentInfo {
   margin: 13.5px 0 13.5px 0;
@@ -92,6 +94,21 @@ body {
   right: 325px;
   cursor: pointer;
   position: relative; }
+
+.firstSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0; }
+
+.secondSlideShow {
+  position: absolute;
+  opacity: 1;
+  z-index: 1; }
+
+.thirdSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0; }
 
 .iconList {
   list-style: none;

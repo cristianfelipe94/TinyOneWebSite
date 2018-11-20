@@ -77,7 +77,9 @@ body {
 ////////////////////
 .contentBlock {
   max-width: 940px;
+  height: 480px;
   margin: 0 auto;
+  position: relative;
 }
 
 .preContentInfo {
@@ -123,7 +125,23 @@ body {
   position: relative;
 }
 
+.firstSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+}
 
+.secondSlideShow {
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+}
+
+.thirdSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+}
 //Software Icons.
 /////////////////
 .iconList {
