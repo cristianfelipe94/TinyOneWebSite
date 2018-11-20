@@ -83,9 +83,15 @@ body {
   float: left; }
 
 .mediaBlock {
-  width: 40%;
+  width: 326px;
   float: right;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
+
+#imgHover:hover {
+  right: 325px;
+  cursor: pointer;
+  position: relative; }
 
 .iconList {
   list-style: none;
@@ -157,13 +163,15 @@ body {
 .featureTitle {
   display: inline-block;
   margin: 0;
-  font-size: 22px; }
+  font-size: 22px;
+  margin-left: 14px; }
 
 .featureParagraph {
   display: inline-block;
   width: 200px;
   color: #989898;
-  font-size: 16px; }
+  font-size: 16px;
+  margin-left: 14px; }
 
 .paragraphFirstWrapper::before {
   content: '';
