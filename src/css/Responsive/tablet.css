@@ -129,6 +129,15 @@
     right: 0; }
 
   .iconItself {
-    padding: 2px; } }
+    padding: 2px; }
+
+  .thirdBlock {
+    padding: 8% 2% 20% 2%;
+    height: 80%;
+    /* width: 100vw; */
+    background-color: #010101; }
+
+  .imgSpritesFooter {
+    display: none; } }
 
 /*# sourceMappingURL=tablet.css.map */

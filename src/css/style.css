@@ -311,7 +311,7 @@ body {
   display: inline-block; }
 
 .thirdBlock {
-  padding: 8% 2% 8% 2%;
+  padding: 8% 2% 12% 2%;
   height: 80%;
   width: 100vw;
   background-color: #010101; }
@@ -600,6 +600,15 @@ body {
     right: 0; }
 
   .iconItself {
-    padding: 2px; } }
+    padding: 2px; }
+
+  .thirdBlock {
+    padding: 8% 2% 20% 2%;
+    height: 80%;
+    /* width: 100vw; */
+    background-color: #010101; }
+
+  .imgSpritesFooter {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
