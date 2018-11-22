@@ -1,0 +1,134 @@
+@media only screen and (max-width: 767px) {
+  .firstBlock {
+    padding: 8% 20px; }
+
+  .maintitle {
+    width: 78%; }
+
+  .imgSpritesHeader {
+    display: inline-block;
+    width: 181px;
+    margin: 0 auto;
+    float: right; }
+
+  .tabsMenu a + a {
+    margin: 0; }
+
+  .tabsMenu {
+    float: left;
+    width: auto; }
+
+  .tabsMenu a {
+    display: none; }
+
+  .burgerBtn {
+    display: inline-block; }
+
+  .burgerWrapper {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    width: 20px;
+    height: 20px; }
+    .burgerWrapper:hover > .tabsMenu > a {
+      display: inline-block; }
+
+  .logoWrapper {
+    width: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0; }
+
+  .facebookHeaderIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url("../assets/facebookIconB&WFixed.png");
+    content: '';
+    display: inline-block;
+    margin: 11px;
+    cursor: pointer; }
+    .facebookHeaderIcon:hover {
+      opacity: 0.7; }
+
+  .twitterHeaderIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url("../assets/twitterIconB&WFixed.png");
+    content: '';
+    display: inline-block;
+    margin: 11px;
+    cursor: pointer; }
+    .twitterHeaderIcon:hover {
+      opacity: 0.7; }
+
+  .googleHeaderIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url("../assets/googleIconB&WFixed.png");
+    content: '';
+    display: inline-block;
+    margin: 11px;
+    cursor: pointer; }
+    .googleHeaderIcon:hover {
+      opacity: 0.7; }
+
+  .pinterestHeaderIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url("../assets/pinterestIconB&WFixed.png");
+    content: '';
+    display: inline-block;
+    margin: 11px;
+    cursor: pointer; }
+    .pinterestHeaderIcon:hover {
+      opacity: 0.7; }
+
+  .contentBlock {
+    height: 300px;
+    padding-top: 100px; }
+
+  .mediaBlock {
+    display: none; }
+
+  .infoBlock {
+    width: 100%;
+    margin: 0 auto; }
+
+  .subTitle {
+    width: 326px;
+    margin: 0 auto; }
+
+  .preContentInfo {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; }
+
+  .contentInfo {
+    display: none; }
+
+  .iconList {
+    border: 3px solid black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 1%;
+    text-align: center; }
+    .iconList:hover {
+      border: 2px solid black; }
+
+  .softwareIcons {
+    width: 350px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; }
+
+  .secondSlideShow {
+    left: 0;
+    right: 0; }
+
+  .iconItself {
+    padding: 2px; } }
+
+/*# sourceMappingURL=tablet.css.map */

@@ -1,0 +1,128 @@
+
+//Thrid Block
+/////////////
+.thirdBlock {
+  padding: 8% 2% 8% 2%;
+  height: 80%;
+  width: 100vw;
+  background-color: #010101;
+}
+
+.subTitleFooter {
+  font-weight: bold;
+  font-size: 32px;
+  width: 100%;
+  color: #fcdb00;
+}
+
+.preContentFooter {
+  margin: 0 auto;
+  font-size: 20px;
+  width: 80%;
+  color: #898989;
+}
+
+.thirdContentBlock {
+  max-width: 940px;
+  margin: 0 auto 22px;
+  text-align: center;
+}
+
+.formBlock {
+  max-width: 752px;
+  height: 50px;
+  margin: 22px auto;
+  text-align: center;
+}
+
+.inputEmailBar {
+ width: 78%;
+ height: 50px;
+ margin-right: 12px;
+ display: inline-block;
+ border-radius: 10px;
+ border: none;
+ font-size: 20px;
+}
+
+.sendMessageBtn {
+  font-size: 16px;
+  width: 17%;
+  height: 50px;
+  margin-left: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #fcdb00;
+  border-radius: 10px;
+  border: none;
+  &:hover {
+    background-color: black;
+    color: #fcdb00;
+    transition: background-color 0.8s, color 0.5s;
+    border: 2px solid #fcdb00;
+  }
+}
+
+//Sprites Block.
+////////////////
+.imgSpritesFooter {
+  width: 277px;
+  margin: 0 auto;
+}
+
+.facebookIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/facebookIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.twitterIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/twitterIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.googleIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/googleIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.pinterestIcon {
+  height: 36px;
+  width: 36px;
+  $url:'../assets/pinterestIcon.png';
+  background-image: url($url);
+  content: '';
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}

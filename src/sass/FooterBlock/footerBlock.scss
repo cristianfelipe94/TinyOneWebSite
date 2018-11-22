@@ -1,0 +1,74 @@
+//Footer Block.
+///////////////
+.footerBlock {
+  color: rgba(255, 255, 255, 0.664);
+  width: 890px;
+  padding-bottom: 8%;
+  margin: 0 auto;
+}
+
+.footerBlock::before {
+  clear: both;
+  content:'';
+  display: inline-block;
+}
+
+.addressBlock {
+  width: 185px;
+  padding: 0 13px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.firstInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.secondInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.thirdInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.fourthInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left;
+  p {
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,163 @@
+
+//Firts yellow block.
+/////////////////////
+.firstBlock {
+  padding: 8% 20px;
+  background-color: #fcdb00;
+}
+
+//Main Navigation menu.
+///////////////////////
+.navMenu {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.navMenu::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.maintitle {
+  font-size: 30px;
+  width: 20%;
+  margin: 0;
+  float: left;
+}
+
+.maintitle::before {
+  $url:'../assets/print.png';
+  content: '';
+  background-image: url($url);
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin-right: 10px;
+}
+
+.imgSpritesHeader {
+  display: none;
+}
+
+.tabsMenu {
+  float: right;
+  width: 31%;
+  padding: 0;
+  margin: 0;
+}
+
+.tabsMenu a {
+  font-size: 22px;
+  display: inline;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    color: white;
+    transition: color 0.5s;
+  }
+}
+
+.tabsMenu a + a {
+  margin-left: 37.5px;
+}
+
+.burgerBtn {
+  display: none;
+}
+
+//Information block.
+////////////////////
+.contentBlock {
+  max-width: 940px;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.preContentInfo {
+  margin: 13.5px 0 13.5px 0;
+  font-size: 20px;
+  width: 58%;
+}
+
+.contentInfo {
+  font-size: 16px;
+  margin: 13.5px 0 13.5px 0;
+  width: 75%;
+}
+
+.contentBlock::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 32px;
+  width: 58%;
+}
+
+.infoBlock {
+  width: 60%;
+  float: left;
+}
+
+// Media block.
+.mediaBlock {
+  width: 326px;
+  float: right;
+  text-align: center;
+  overflow: hidden;
+}
+
+.firstSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+}
+
+.secondSlideShow {
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+}
+
+.thirdSlideShow {
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+}
+
+//Software Icons.
+/////////////////
+.iconList {
+  list-style: none;
+  display: inline-block;
+  margin: 13.5px 20px 0;
+}
+
+//SlideShow Circles Status.
+///////////////////////////
+.slideShowStatus {
+  width: 20%;
+  margin: 45px auto;
+  text-align: center;
+}
+
+.circleSlideShow {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.circleSlideShow:hover {
+  background-color: black;
+  transition: background-color 0.8s;
+}

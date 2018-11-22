@@ -1,0 +1,57 @@
+.footerBlock {
+  color: rgba(255, 255, 255, 0.664);
+  width: 890px;
+  padding-bottom: 8%;
+  margin: 0 auto; }
+
+.footerBlock::before {
+  clear: both;
+  content: '';
+  display: inline-block; }
+
+.addressBlock {
+  width: 185px;
+  padding: 0 13px;
+  float: left; }
+  .addressBlock p {
+    cursor: pointer; }
+    .addressBlock p:hover {
+      color: white; }
+
+.firstInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left; }
+  .firstInfoFooterBlock p {
+    cursor: pointer; }
+    .firstInfoFooterBlock p:hover {
+      color: white; }
+
+.secondInfoFooterBlock {
+  width: 80px;
+  margin: 0 43px;
+  float: left; }
+  .secondInfoFooterBlock p {
+    cursor: pointer; }
+    .secondInfoFooterBlock p:hover {
+      color: white; }
+
+.thirdInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left; }
+  .thirdInfoFooterBlock p {
+    cursor: pointer; }
+    .thirdInfoFooterBlock p:hover {
+      color: white; }
+
+.fourthInfoFooterBlock {
+  width: 80px;
+  margin: 0 42px;
+  float: left; }
+  .fourthInfoFooterBlock p {
+    cursor: pointer; }
+    .fourthInfoFooterBlock p:hover {
+      color: white; }
+
+/*# sourceMappingURL=footerBlock.css.map */
