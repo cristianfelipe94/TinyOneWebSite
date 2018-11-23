@@ -165,6 +165,48 @@
     padding: 2px;
   }
 
+  //Second Block
+  //////////////
+  .firstFeature::before {
+    display: none;
+  }
+
+  .secondFeature::before {
+    display: none;
+  }
+
+  .thirdFeature::before {
+    display: none;
+  }
+
+  .fourthFeature::before {
+    display: none;
+  }
+
+  .fifthFeature::before {
+    display: none;
+  }
+
+  .sixthFeature::before {
+    display: none;
+  }
+
+  .secondFeature, .fifthFeature {
+    opacity: 0;
+  }
+  .infoFeatures {
+    position: relative;
+  }
+
+  .tabletTinyOneWrapper {
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  left: 0;
+  }
   //Thrid Block
   /////////////
   .thirdBlock {

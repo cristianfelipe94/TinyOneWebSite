@@ -24,6 +24,9 @@
   max-width: 940px;
   margin: 0 auto; }
 
+.tabletTinyOneWrapper {
+  display: none; }
+
 .firstRow {
   display: table;
   margin: 0 auto; }

@@ -158,6 +158,9 @@ body {
   max-width: 940px;
   margin: 0 auto; }
 
+.tabletTinyOneWrapper {
+  display: none; }
+
 .firstRow {
   display: table;
   margin: 0 auto; }
@@ -601,6 +604,39 @@ body {
 
   .iconItself {
     padding: 2px; }
+
+  .firstFeature::before {
+    display: none; }
+
+  .secondFeature::before {
+    display: none; }
+
+  .thirdFeature::before {
+    display: none; }
+
+  .fourthFeature::before {
+    display: none; }
+
+  .fifthFeature::before {
+    display: none; }
+
+  .sixthFeature::before {
+    display: none; }
+
+  .secondFeature, .fifthFeature {
+    opacity: 0; }
+
+  .infoFeatures {
+    position: relative; }
+
+  .tabletTinyOneWrapper {
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    left: 0; }
 
   .thirdBlock {
     padding: 8% 2% 20% 2%;
