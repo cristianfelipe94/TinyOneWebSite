@@ -167,6 +167,10 @@
 
   //Second Block
   //////////////
+  .secondBlock {
+    padding: 8% 2% 20% 2%;
+  }
+
   .firstFeature::before {
     display: none;
   }
@@ -206,6 +210,11 @@
   right: 0;
   text-align: center;
   left: 0;
+  width: 240px;
+  }
+
+  .tabletTinyOneWrapper img {
+    width: 240px;
   }
   //Thrid Block
   /////////////

@@ -135,7 +135,6 @@ body {
 .secondBlock {
   padding: 8% 2% 8% 2%;
   height: 80%;
-  width: 100vw;
   background-color: #ffffff; }
 
 .secondContentBlock {
@@ -316,7 +315,6 @@ body {
 .thirdBlock {
   padding: 8% 2% 12% 2%;
   height: 80%;
-  width: 100vw;
   background-color: #010101; }
 
 .subTitleFooter {
@@ -605,6 +603,9 @@ body {
   .iconItself {
     padding: 2px; }
 
+  .secondBlock {
+    padding: 8% 2% 20% 2%; }
+
   .firstFeature::before {
     display: none; }
 
@@ -636,7 +637,11 @@ body {
     top: 0;
     right: 0;
     text-align: center;
-    left: 0; }
+    left: 0;
+    width: 240px; }
+
+  .tabletTinyOneWrapper img {
+    width: 240px; }
 
   .thirdBlock {
     padding: 8% 2% 20% 2%;
