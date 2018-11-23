@@ -1,9 +1,9 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .firstBlock {
     padding: 8% 20px; }
 
   .maintitle {
-    width: 78%; }
+    width: 81%; }
 
   .imgSpritesHeader {
     display: inline-block;

@@ -1,5 +1,5 @@
 .firstBlock {
-  padding: 8% 20px;
+  padding: 8% 2%;
   background-color: #fcdb00; }
 
 .navMenu {
@@ -13,8 +13,8 @@
   display: block; }
 
 .maintitle {
-  font-size: 30px;
-  width: 20%;
+  font-size: 2rem;
+  width: 50%;
   margin: 0;
   float: left; }
 
@@ -31,12 +31,13 @@
 
 .tabsMenu {
   float: right;
-  width: 31%;
+  width: 50%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-align: right; }
 
 .tabsMenu a {
-  font-size: 22px;
+  font-size: 1.5rem;
   display: inline;
   color: black;
   text-decoration: none;
@@ -53,18 +54,18 @@
   display: none; }
 
 .contentBlock {
-  max-width: 940px;
   height: 480px;
+  max-width: 940px;
   margin: 0 auto;
   position: relative; }
 
 .preContentInfo {
   margin: 13.5px 0 13.5px 0;
-  font-size: 20px;
+  font-size: 1.3rem;
   width: 58%; }
 
 .contentInfo {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 13.5px 0 13.5px 0;
   width: 75%; }
 
@@ -75,17 +76,16 @@
 
 .subTitle {
   font-weight: bold;
-  font-size: 32px;
-  width: 58%; }
+  font-size: 2rem; }
 
 .infoBlock {
   width: 60%;
   float: left; }
 
 .mediaBlock {
-  width: 326px;
+  width: 40%;
   float: right;
-  text-align: center;
+  text-align: right;
   overflow: hidden; }
 
 .firstSlideShow {

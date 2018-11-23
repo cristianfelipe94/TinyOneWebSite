@@ -7,7 +7,7 @@ body {
   overflow-x: hidden; }
 
 .firstBlock {
-  padding: 8% 20px;
+  padding: 8% 2%;
   background-color: #fcdb00; }
 
 .navMenu {
@@ -21,8 +21,8 @@ body {
   display: block; }
 
 .maintitle {
-  font-size: 30px;
-  width: 20%;
+  font-size: 2rem;
+  width: 50%;
   margin: 0;
   float: left; }
 
@@ -39,12 +39,13 @@ body {
 
 .tabsMenu {
   float: right;
-  width: 31%;
+  width: 50%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-align: right; }
 
 .tabsMenu a {
-  font-size: 22px;
+  font-size: 1.5rem;
   display: inline;
   color: black;
   text-decoration: none;
@@ -61,18 +62,18 @@ body {
   display: none; }
 
 .contentBlock {
-  max-width: 940px;
   height: 480px;
+  max-width: 940px;
   margin: 0 auto;
   position: relative; }
 
 .preContentInfo {
   margin: 13.5px 0 13.5px 0;
-  font-size: 20px;
+  font-size: 1.3rem;
   width: 58%; }
 
 .contentInfo {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 13.5px 0 13.5px 0;
   width: 75%; }
 
@@ -83,17 +84,16 @@ body {
 
 .subTitle {
   font-weight: bold;
-  font-size: 32px;
-  width: 58%; }
+  font-size: 2rem; }
 
 .infoBlock {
   width: 60%;
   float: left; }
 
 .mediaBlock {
-  width: 326px;
+  width: 40%;
   float: right;
-  text-align: center;
+  text-align: right;
   overflow: hidden; }
 
 .firstSlideShow {
@@ -145,12 +145,12 @@ body {
 
 .subTitleFeatures {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   width: 100%; }
 
 .preContentFeatures {
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 1.3rem;
   width: 80%; }
 
 .infoFeatures {
@@ -165,10 +165,8 @@ body {
   margin: 0 auto; }
 
 .firstFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
-  margin: 10px;
   padding: 0; }
 
 .firstFeature::before {
@@ -183,8 +181,8 @@ body {
 .featureTitle {
   display: inline-block;
   margin: 0;
-  font-size: 22px;
-  margin-left: 14px; }
+  font-size: 1.3rem;
+  margin-left: 4%; }
 
 .featureParagraph {
   display: inline-block;
@@ -206,7 +204,6 @@ body {
   display: inline-block; }
 
 .secondFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
   margin: 10px;
@@ -222,7 +219,6 @@ body {
   top: 20px; }
 
 .thirdFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
   margin: 10px;
@@ -248,7 +244,6 @@ body {
   margin: 0 auto; }
 
 .fourthFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
   margin: 10px;
@@ -270,10 +265,8 @@ body {
   display: inline-block; }
 
 .fifthFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
-  margin: 10px;
   padding: 0; }
 
 .fifthFeature::before {
@@ -292,7 +285,6 @@ body {
   display: inline-block; }
 
 .sixthFeature {
-  width: 28%;
   height: auto;
   display: table-cell;
   padding: 0; }
@@ -319,13 +311,13 @@ body {
 
 .subTitleFooter {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   width: 100%;
   color: #fcdb00; }
 
 .preContentFooter {
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 1.3rem;
   width: 80%;
   color: #898989; }
 
@@ -347,10 +339,10 @@ body {
   display: inline-block;
   border-radius: 10px;
   border: none;
-  font-size: 20px; }
+  font-size: 1.3rem; }
 
 .sendMessageBtn {
-  font-size: 16px;
+  font-size: 1rem;
   width: 17%;
   height: 50px;
   margin-left: 12px;
@@ -426,7 +418,7 @@ body {
   display: inline-block; }
 
 .addressBlock {
-  width: 185px;
+  width: 18%;
   padding: 0 13px;
   float: left; }
   .addressBlock p {
@@ -435,7 +427,7 @@ body {
       color: white; }
 
 .firstInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 43px;
   float: left; }
   .firstInfoFooterBlock p {
@@ -444,7 +436,7 @@ body {
       color: white; }
 
 .secondInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 43px;
   float: left; }
   .secondInfoFooterBlock p {
@@ -453,7 +445,7 @@ body {
       color: white; }
 
 .thirdInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 42px;
   float: left; }
   .thirdInfoFooterBlock p {
@@ -462,7 +454,7 @@ body {
       color: white; }
 
 .fourthInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 42px;
   float: left; }
   .fourthInfoFooterBlock p {
@@ -470,12 +462,12 @@ body {
     .fourthInfoFooterBlock p:hover {
       color: white; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .firstBlock {
     padding: 8% 20px; }
 
   .maintitle {
-    width: 78%; }
+    width: 81%; }
 
   .imgSpritesHeader {
     display: inline-block;

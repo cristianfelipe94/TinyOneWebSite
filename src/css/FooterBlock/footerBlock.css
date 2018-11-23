@@ -10,7 +10,7 @@
   display: inline-block; }
 
 .addressBlock {
-  width: 185px;
+  width: 18%;
   padding: 0 13px;
   float: left; }
   .addressBlock p {
@@ -19,7 +19,7 @@
       color: white; }
 
 .firstInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 43px;
   float: left; }
   .firstInfoFooterBlock p {
@@ -28,7 +28,7 @@
       color: white; }
 
 .secondInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 43px;
   float: left; }
   .secondInfoFooterBlock p {
@@ -37,7 +37,7 @@
       color: white; }
 
 .thirdInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 42px;
   float: left; }
   .thirdInfoFooterBlock p {
@@ -46,7 +46,7 @@
       color: white; }
 
 .fourthInfoFooterBlock {
-  width: 80px;
+  width: 10%;
   margin: 0 42px;
   float: left; }
   .fourthInfoFooterBlock p {
