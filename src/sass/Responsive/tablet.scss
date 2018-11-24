@@ -1,7 +1,11 @@
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
 
   .firstBlock {
     padding: 8% 20px;
+  }
+
+  .navMenu {
+    padding-bottom: 12%;
   }
 
   .maintitle {
@@ -26,6 +30,7 @@
 
   .tabsMenu a {
     display: none;
+    float: left;
   }
 
   .burgerBtn {
@@ -228,6 +233,10 @@
   // Footer
   .imgSpritesFooter {
     display: none;
+  }
+
+  .footerBlock {
+    max-width: 940px;
   }
 
 }

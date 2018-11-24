@@ -1,6 +1,9 @@
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
   .firstBlock {
     padding: 8% 20px; }
+
+  .navMenu {
+    padding-bottom: 12%; }
 
   .maintitle {
     width: 81%; }
@@ -19,7 +22,8 @@
     width: auto; }
 
   .tabsMenu a {
-    display: none; }
+    display: none;
+    float: left; }
 
   .burgerBtn {
     display: inline-block; }
@@ -178,6 +182,9 @@
     background-color: #010101; }
 
   .imgSpritesFooter {
-    display: none; } }
+    display: none; }
+
+  .footerBlock {
+    max-width: 940px; } }
 
 /*# sourceMappingURL=tablet.css.map */

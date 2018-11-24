@@ -306,7 +306,6 @@ body {
 
 .thirdBlock {
   padding: 8% 2% 12% 2%;
-  height: 80%;
   background-color: #010101; }
 
 .subTitleFooter {
@@ -408,7 +407,7 @@ body {
 
 .footerBlock {
   color: rgba(255, 255, 255, 0.664);
-  width: 890px;
+  max-width: 940px;
   padding-bottom: 8%;
   margin: 0 auto; }
 
@@ -462,9 +461,12 @@ body {
     .fourthInfoFooterBlock p:hover {
       color: white; }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
   .firstBlock {
     padding: 8% 20px; }
+
+  .navMenu {
+    padding-bottom: 12%; }
 
   .maintitle {
     width: 81%; }
@@ -483,7 +485,8 @@ body {
     width: auto; }
 
   .tabsMenu a {
-    display: none; }
+    display: none;
+    float: left; }
 
   .burgerBtn {
     display: inline-block; }
@@ -642,6 +645,9 @@ body {
     background-color: #010101; }
 
   .imgSpritesFooter {
-    display: none; } }
+    display: none; }
+
+  .footerBlock {
+    max-width: 940px; } }
 
 /*# sourceMappingURL=style.css.map */

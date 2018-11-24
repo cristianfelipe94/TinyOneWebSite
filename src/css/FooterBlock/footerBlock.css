@@ -1,6 +1,6 @@
 .footerBlock {
   color: rgba(255, 255, 255, 0.664);
-  width: 890px;
+  max-width: 940px;
   padding-bottom: 8%;
   margin: 0 auto; }
 
