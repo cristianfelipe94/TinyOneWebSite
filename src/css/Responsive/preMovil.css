@@ -1,0 +1,14 @@
+@media only screen and (max-width: 700px) {
+  .tabletTinyOneWrapper img {
+    display: none; }
+
+  .secondFeature, .fifthFeature {
+    display: none; }
+
+  .paragraphThirdWrapper {
+    margin-left: 0; }
+
+  .thirdBlock {
+    padding: 8% 2% 40% 2%; } }
+
+/*# sourceMappingURL=preMovil.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAA0C;EACxC,yBAA0B;IACxB,OAAO,EAAE,IAAI;;EAGf,6BAA8B;IAC5B,OAAO,EAAE,IAAI;;EAGf,sBAAuB;IACrB,WAAW,EAAE,CAAC;;EAGhB,WAAY;IACV,OAAO,EAAE,YAAY",
+"sources": ["../../sass/Responsive/preMovil.scss"],
+"names": [],
+"file": "preMovil.css"
+}

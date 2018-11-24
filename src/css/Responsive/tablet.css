@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 770px) {
   .firstBlock {
     padding: 8% 20px; }
 
@@ -137,6 +137,12 @@
 
   .secondBlock {
     padding: 8% 2% 20% 2%; }
+
+  .paragraphThirdWrapper {
+    margin-left: 4%; }
+
+  .thirdFeature > .featureTitle {
+    margin-left: 8%; }
 
   .firstFeature::before {
     display: none; }
