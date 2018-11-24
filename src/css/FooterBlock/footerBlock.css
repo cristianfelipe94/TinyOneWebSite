@@ -11,7 +11,7 @@
 
 .addressBlock {
   width: 18%;
-  padding: 0 13px;
+  padding: 0 2%;
   float: left; }
   .addressBlock p {
     cursor: pointer; }
@@ -20,7 +20,7 @@
 
 .firstInfoFooterBlock {
   width: 10%;
-  margin: 0 43px;
+  margin: 0 5%;
   float: left; }
   .firstInfoFooterBlock p {
     cursor: pointer; }
@@ -29,7 +29,7 @@
 
 .secondInfoFooterBlock {
   width: 10%;
-  margin: 0 43px;
+  margin: 0 5%;
   float: left; }
   .secondInfoFooterBlock p {
     cursor: pointer; }
@@ -38,7 +38,7 @@
 
 .thirdInfoFooterBlock {
   width: 10%;
-  margin: 0 42px;
+  margin: 0 5%;
   float: left; }
   .thirdInfoFooterBlock p {
     cursor: pointer; }
@@ -47,7 +47,7 @@
 
 .fourthInfoFooterBlock {
   width: 10%;
-  margin: 0 42px;
+  margin: 0 4%;
   float: left; }
   .fourthInfoFooterBlock p {
     cursor: pointer; }
