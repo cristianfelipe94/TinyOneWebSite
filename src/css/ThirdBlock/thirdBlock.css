@@ -44,7 +44,8 @@
   display: inline-block;
   background-color: #fcdb00;
   border-radius: 10px;
-  border: none; }
+  border: none;
+  cursor: pointer; }
   .sendMessageBtn:hover {
     background-color: black;
     color: #fcdb00;

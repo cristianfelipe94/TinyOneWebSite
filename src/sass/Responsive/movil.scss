@@ -1,0 +1,46 @@
+@media only screen and (max-width: 560px) {
+
+  .imgSpritesHeader {
+    display: none;
+  }
+
+  .logoWrapper {
+    float: right;
+    position: unset;
+  }
+
+  .thirdBlock {
+    padding: 8% 2% 50% 2%;
+  }
+
+  .footerBlock {
+    font-size: 0.7rem;
+  }
+
+  .inputEmailBar {
+      width: 55%;
+      height: 30px;
+  }
+
+  .subTitleFooter, .subTitleFeatures  {
+    font-size: 1.5rem;
+  }
+
+  .preContentFooter, .preContentFeatures {
+    font-size: 1.2rem;
+  }
+
+  .featureTitle {
+    font-size: 1.2rem;
+  }
+
+  .featureParagraph {
+    font-size: 0.9rem;
+  }
+
+  .thirdBlock, .firstBlock, .secondBlock {
+    padding: 5% 4% 40% 4%;
+    width: 100%;
+  }
+
+}
